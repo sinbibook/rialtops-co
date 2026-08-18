@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.0.0",
-    "generatedAt": "2026-08-18T08:57:14.944112754Z",
+    "version": "1.1.0",
+    "generatedAt": "2026-08-18T08:59:58.973874699Z",
     "templateType": "trip_f",
     "propertyId": "71b60923-37cd-4dd9-ae52-b20f097d287a",
     "homepageId": "9204dd6c-deeb-4f72-b882-ebf19a703144"
@@ -2672,9 +2672,57 @@
                 "title": "",
                 "images": [
                   {
-                    "id": "f616fc7e-f832-4e66-954e-d48beda8f54d",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/9204dd6c-deeb-4f72-b882-ebf19a703144/nearby_attractions_hero/1787038024657-vk6d2i8kqo.jpg",
+                    "id": "561a3de0-9552-4a69-853e-dc436a7c9716",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/9204dd6c-deeb-4f72-b882-ebf19a703144/nearby_attractions_hero/1787043596642-1h0icwqos6.webp",
                     "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "83bcc251-a514-4451-92c1-e5ccbdb8e3f5",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/9204dd6c-deeb-4f72-b882-ebf19a703144/nearby_attractions_hero/1787043596619-5ecqc7gmz6.webp",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "b6afbc7d-94d5-46b5-abd9-6ca2b08bc33a",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/9204dd6c-deeb-4f72-b882-ebf19a703144/nearby_attractions_hero/1787043596628-rorh1ko0ps.webp",
+                    "sortOrder": 2,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "95459df7-349d-4627-8081-22e2141a5e49",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/9204dd6c-deeb-4f72-b882-ebf19a703144/nearby_attractions_hero/1787043596693-ubss2bmfil.webp",
+                    "sortOrder": 3,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "788e3151-03be-4f29-9c98-6c003891bf21",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/9204dd6c-deeb-4f72-b882-ebf19a703144/nearby_attractions_hero/1787043596697-un8skz9byh.webp",
+                    "sortOrder": 4,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "48eb0ccf-fd18-417a-8d6b-4660f37e3360",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/9204dd6c-deeb-4f72-b882-ebf19a703144/nearby_attractions_hero/1787043596697-p5m7nhl3ji.webp",
+                    "sortOrder": 5,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "6d206a8e-ccd1-4fcf-92ff-a81f1ad88e72",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/9204dd6c-deeb-4f72-b882-ebf19a703144/nearby_attractions_hero/1787043596625-jtwixzfv15.webp",
+                    "sortOrder": 6,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
