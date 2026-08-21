@@ -115,11 +115,11 @@
 
     var gallery = document.querySelector('[data-facility-gallery]');
     if (gallery) {
-      // 대표(0) 다음 이미지로 고정 4칸 구성, 이미지 없는 칸은 No-Image placeholder
-      var rest = images.slice(1, 5);
+      // 대표(0) 다음 이미지로 고정 2칸 구성, 이미지 없는 칸은 No-Image placeholder
+      var rest = images.slice(1, 3);
       var EMPTY = ImageHelpers.EMPTY_IMAGE_SVG;
       var html = '';
-      for (var i = 0; i < 4; i++) {
+      for (var i = 0; i < 2; i++) {
         var img = rest[i] && rest[i].url;
         if (img) {
           html += '<li class="fadeUp is-inview" style="background-image:url(' + img + ')"><img src="' + img + '" alt=""></li>';

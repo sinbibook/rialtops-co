@@ -58,9 +58,13 @@ header
 .header.on{border-bottom:1px solid rgba(255,255,255,0.2);background:rgb(from var(--color-secondary) r g b / 0.35);}
 .header .hd_inner {padding:0 0;width:calc(100% - 200px);margin:0 auto;box-sizing:border-box; height:100px;}
 .header .hd_inner:after {content:'';display:block;clear:both;}
-/* 로고 폭: 기본 140px, 모바일(≤680px) 100px — mapLogo가 인라인 width:var(--logo-w)로 참조 */
-:root{ --logo-w:140px; }
-@media only screen and (max-width:680px){ :root{ --logo-w:100px; } }
+/* 로고 최대 폭/높이 — mapLogo가 인라인 max-width/max-height로 참조 (비율 유지한 채 축소)
+   --logo-h는 각 구간의 헤더 배경(hd_inner) 높이 − .logo top 보다 작게 잡아 로고가 배경 밖으로 나가지 않게 함
+   기본: 헤더 100px / top 20px, ≤999px: 헤더 70px / top 14px */
+:root{ --logo-w:140px; --logo-h:60px; }
+@media only screen and (max-width:1280px){ :root{ --logo-h:50px; } }
+@media only screen and (max-width:999px){ :root{ --logo-h:45px; } }
+@media only screen and (max-width:680px){ :root{ --logo-w:100px; --logo-h:40px; } }
 .header .logo {color:#fff;text-align:center;z-index:999; position:absolute; left:40px; top:20px;}
 .header .logo a{display:block;height:70px;}
 .header .logo img {height:60px;}
@@ -76,13 +80,22 @@ header
 .header .hd_lnb ul,
 .header .hd_lnb ul .depth1 {display:inline-block;vertical-align:middle;}
 .header .hd_lnb ul .depth1 {font-size:18px;position:relative;}
-.header .hd_lnb ul .depth1 .depth1_a {line-height:6.25;display:block;padding:0 40px;transition:none;letter-spacing:0; text-transform:uppercase;}
+/* padding 60px: 대메뉴 폭(글자+120px)이 드롭다운 max-width 이상이 되게 해 인접 서브메뉴끼리 겹치지 않도록 */
+.header .hd_lnb ul .depth1 .depth1_a {line-height:6.25;display:block;padding:0 60px;transition:none;letter-spacing:0; text-transform:uppercase;}
 .header .hd_lnb ul .depth1 .depth1_a span{font-weight:600; color:#fff;letter-spacing:0}
-.header .hd_lnb ul .depth1 .depth_box {position:absolute;left:50%;top:calc(100% + 30px);width:100%;transform:translateX(-50%);z-index:91;text-align:center;max-height:0;overflow:hidden;opacity:0;transition:all .4s;}
-.header .hd_lnb ul .depth1 .depth_box.on {max-height:1000px;opacity:1;}
+/* width:auto + min-width:100% → 내용만큼만 넓어지고 최소 대메뉴 폭은 유지, max-width에서 말줄임 */
+.header .hd_lnb ul .depth1 .depth_box {position:absolute;left:50%;top:calc(100% + 30px);width:auto;min-width:100%;max-width:190px;transform:translateX(-50%);z-index:91;text-align:center;max-height:0;overflow:hidden;opacity:0;transition:max-height .4s, opacity .4s;}
+/* --lnb-box-h / --lnb-bg-h: 열린 서브메뉴 실제 높이(custom.js updateLnbBgHeight가 .header에 주입). roomtypes 개수에 따라 가변 */
+.header .hd_lnb ul .depth1 .depth_box.on {max-height:var(--lnb-box-h, 1000px);opacity:1;}
+/* 화면 높이를 넘길 만큼 항목이 많으면 드롭다운 내부 스크롤 */
+.header.is-lnb-scroll .hd_lnb ul .depth1 .depth_box.on {overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.5) transparent;}
+.header.is-lnb-scroll .hd_lnb ul .depth1 .depth_box.on::-webkit-scrollbar {width:4px;}
+.header.is-lnb-scroll .hd_lnb ul .depth1 .depth_box.on::-webkit-scrollbar-thumb {background:rgba(255,255,255,.5);border-radius:2px;}
+.header.is-lnb-scroll .hd_lnb ul .depth1 .depth_box.on::-webkit-scrollbar-track {background:transparent;}
 .header .hd_lnb ul .depth1 .depth_box li {font-size:14px;line-height:1;padding:7px 0;color:#333;}
 .header .hd_lnb ul .depth1 .depth_box li + li {margin-top:5px;}
-.header .hd_lnb ul .depth1 .depth_box li a {display:inline-block;font-size:inherit;color:inherit; line-height:1.5em; position:relative;font-size:16px;font-weight:300; color:#fff;letter-spacing:0}
+/* 긴 객실명은 한 줄 유지 + 말줄임(...) — 줄바꿈으로 드롭다운이 세로로 폭증하는 것 방지 (full 텍스트는 title 속성) */
+.header .hd_lnb ul .depth1 .depth_box li a {display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;vertical-align:middle;font-size:inherit;color:inherit; line-height:1.5em; position:relative;font-size:16px;font-weight:300; color:#fff;letter-spacing:0}
 
 .header .hd_lnb ul .depth1 .depth_box li a:after{width:0;left:50%; bottom:-1px; border-bottom:1px solid #fff; display:block; content:""; position:absolute;-webkit-transition:  width 0.4s ease-in-out;-moz-transition:  width 0.4s ease-in-out;-o-transition:  width 0.4s ease-in-out;transition: width 0.4s ease-in-out;-webkit-transform: translateX(-50%); -moz-transform: translateX(-50%);-ms-transform: translateX(-50%); -o-transform:  translateX(-50%);transform: translateX(-50%);}
 .header .hd_lnb ul .depth1 .depth_box li a:hover:after, .header .hd_lnb ul .depth1 .depth_box li.active a:after{width:100%;}
@@ -91,7 +104,7 @@ header
 .header .hd_lnb .hd_lnb01 {float:left;}
 .header .hd_lnb .hd_lnb02 {float:right;}
 .header .hd_lnb_bg{position:absolute;left:0;top:100%;right:0;background:rgb(from var(--color-secondary) r g b / 0.35);z-index:50;overflow:hidden;height: 0;box-sizing: border-box;height:0;transition:all .5s;}
-.header .hd_lnb_bg.on {height:500px;}
+.header .hd_lnb_bg.on {height:var(--lnb-bg-h, 500px);}
 
 
 /* .header.on{background:#fff;border-bottom-color:#efefef;}
@@ -129,7 +142,9 @@ header
     .header .logo{top:22px; left:30px}
     .header .logo a{display:block;height:50px;}
     .header .logo img {height:50px;}
-    .header .hd_lnb ul .depth1 .depth1_a{padding:0 30px;}
+    .header .hd_lnb ul .depth1 .depth1_a{padding:0 40px;}
+    /* 대메뉴 폭이 줄어드는 구간 — 드롭다운도 같이 좁혀 겹침 방지(긴 객실명은 말줄임) */
+    .header .hd_lnb ul .depth1 .depth_box{max-width:150px;}
 }
 @media only screen and (max-width:1100px) {
     .header .btn_ybs {right:9%;}
@@ -897,6 +912,8 @@ visual
 .ft_box{position:relative; padding-left:350px; padding-top:25px; min-height:162px; box-sizing:border-box;}
 .ft_box:before{border-left:1px solid var(--color-primary); height:162px; left:280px; top:0; position:absolute; display:block ;content:""}
 
+/* 푸터 로고는 헤더 배경 높이 제약이 없으므로 폭(--logo-w) 기준만 적용 */
+.ft_logo{ --logo-h:none; }
 .ft_logo{position:Absolute; left:20px;top:50%; width:234px; text-align:center; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%);-ms-transform: translateY(-50%); -o-transform:  translateY(-50%);transform: translateY(-50%);}
 .ft_logo .btxt{font-family: var(--font-ko-main);font-size:30px; font-weight:400; color:#fff; letter-spacing:0.01em;line-height:1.2em;}
 .ft_logo .stxt{font-size:15px; font-weight:400; color:#fff; line-height:1.2em; margin-top:10px;}

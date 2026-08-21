@@ -300,7 +300,7 @@ hero.images[isSelected] 기준 (rebuild 후 window.initVisualSwiper() 재초기�
 | `data-facility-description`    | `.tits p`                               | `facilities[current].description` (\n→`<br>`)                     |
 | `data-facility-image`          | `.dimg .img` (배경)                     | `facilities[current].images[isSelected][0]` (없으면 placeholder)  |
 | `data-facility-name-en`        | `.dimg h4`                              | `property.nameEn` (숙소 영문명)                                    |
-| `data-facility-gallery`        | `.dimg ul`                              | `facilities[current].images[isSelected]` (대표 다음 **고정 4칸**, 없는 칸 placeholder, 2열 그리드) |
+| `data-facility-gallery`        | `.dimg ul`                              | `facilities[current].images[isSelected]` (대표 다음 **고정 2칸**, 없는 칸 placeholder, 2열 그리드) |
 | `data-facility-slides`         | `.vimg .spec-img .swiper-wrapper`       | `facilities[]` (이미지 슬라이드, initSpecSwiper 재초기화)          |
 | `data-facility-titles`         | `.vimg .spec-tit`                       | `facilities[]` (txt-con: `btxt`=name, `stxt`='Special,')          |
 | `data-facility-texts`          | `.vimg .spec-txt .swiper-wrapper`       | `facilities[]` (`0N. {name}` + description, `facility.html?id={id}`) |
