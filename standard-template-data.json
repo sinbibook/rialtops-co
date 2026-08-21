@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.9.0",
-    "generatedAt": "2026-08-18T09:44:24.307675942Z",
+    "version": "1.10.0",
+    "generatedAt": "2026-08-21T07:50:21.510454436Z",
     "templateType": "trip_f",
     "propertyId": "71b60923-37cd-4dd9-ae52-b20f097d287a",
     "homepageId": "9204dd6c-deeb-4f72-b882-ebf19a703144"
@@ -25,7 +25,7 @@
     "province": "도/시",
     "city": "시/군/구",
     "domain": "rialtops.co.kr",
-    "realtimeBookingId": "",
+    "realtimeBookingId": "https://booking.naver.com/booking/3/bizes/439111",
     "ybsId": "65148",
     "amenities": [
       "주차장"
@@ -188,7 +188,7 @@
         "name": "부대시설",
         "description": "",
         "usageGuide": "[무제한 바베큐 세트]\n- 메뉴: 삼겹살, 김치, 깻잎, 상추, 쌈채소, 햇반\n- 비용: 1인 30,000원 (숯, 그릴 비용 포함) (현장결제)\n- 이용 시간: 15:00 ~ 20:00\n- 주문 조건: 4인 이상부터 주문 가능\n※ 이용일 전날까지 사전 예약 필수 (당일 주문 불가)\n※ 입실 전 이용 불가\n\n[수상레저]\n- 위치: 펜션 바로 앞 (펜션 테라스와 연결되어 있어 이용하기 편리함)\n- 모비딕 수상 레저, 클럽나인 수상 레져: 이용 시 10% 할인 쿠폰 제공\n- 아이언 빠지 : 이용 시 5,000원 할인 쿠폰 제공\n- 제공방식 : 방문 당일 유선 문의\n\n[낚시]\n- 펜션 테라스에서 낚시 가능\n- 도구 개인 지참",
-        "displayOrder": 4,
+        "displayOrder": 3,
         "images": [
           {
             "id": "e53c33e1-b9f9-4647-816f-0538d4bf8dac",
@@ -221,7 +221,7 @@
         "name": "편의 및 주변 시설",
         "description": "",
         "usageGuide": "- 와이파이 보유\n- 넷플릭스 이용 가능\n※ 개인계정 필요\n\n- 편의점: 도보 10분 GS편의점\n- 마트: 차량 15분 농협, 하나로, CC, 조은마트",
-        "displayOrder": 5,
+        "displayOrder": 4,
         "images": [
           {
             "id": "adda1558-d7e0-41cc-8198-6aaf926b9f22",

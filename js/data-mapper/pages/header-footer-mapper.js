@@ -99,9 +99,12 @@
     if (!els || !els.length) return;
 
     els.forEach(function (el) {
-      // 폭은 CSS 변수로 → 미디어쿼리로 반응형 제어 (기본 140px, 모바일 100px)
-      el.style.width = 'var(--logo-w, 140px)';
+      // 폭/높이 모두 CSS 변수 상한으로 → 로고 비율을 유지한 채 헤더 배경 안에 맞춰 축소.
+      // width를 고정하면 세로가 긴 로고가 헤더 배경 밖으로 넘치므로 max-* 로 제한한다.
+      el.style.width = 'auto';
       el.style.height = 'auto';
+      el.style.maxWidth = 'var(--logo-w, 140px)';
+      el.style.maxHeight = 'var(--logo-h, 60px)';
 
       if (logoUrl) {
         el.src = logoUrl;
@@ -190,7 +193,8 @@
     var lis = roomtypes
       .filter(function (rt) { return rt.name && rt.name.trim(); })
       .map(function (rt) {
-        return '<li data-mapped><a href="room.html?room_id=' + escapeHtml(rt.id) + '">' +
+        // title: PC 드롭다운에서 긴 이름이 말줄임(...) 처리되므로 전체 이름을 툴팁으로 제공
+        return '<li data-mapped><a href="room.html?room_id=' + escapeHtml(rt.id) + '" title="' + escapeHtml(rt.name) + '">' +
           escapeHtml(rt.name) + '</a></li>';
       });
 
@@ -206,7 +210,7 @@
     var lis = facilities
       .filter(function (f) { return f.name && String(f.name).trim(); })
       .map(function (f) {
-        return '<li data-mapped><a href="facility.html?id=' + escapeHtml(f.id) + '">' +
+        return '<li data-mapped><a href="facility.html?id=' + escapeHtml(f.id) + '" title="' + escapeHtml(f.name) + '">' +
           escapeHtml(f.name) + '</a></li>';
       });
 
