@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.10.0",
-    "generatedAt": "2026-08-21T07:50:21.510454436Z",
+    "version": "1.11.0",
+    "generatedAt": "2026-10-09T12:48:20.436368294Z",
     "templateType": "trip_f",
     "propertyId": "71b60923-37cd-4dd9-ae52-b20f097d287a",
     "homepageId": "9204dd6c-deeb-4f72-b882-ebf19a703144"
@@ -15,18 +15,23 @@
     "address": "경기 가평군 가평읍 북한강변로 226-24 가평 리알토 펜션",
     "latitude": 37.75073847300474,
     "longitude": 127.53309775404388,
-    "contactPhone": "010-3273-8322",
+    "contactPhone": [
+      "070-4364-9309"
+    ],
     "contactEmail": "",
     "checkin": "15:00",
     "checkout": "11:00",
     "checkInOutInfo": "[입퇴실안내]\n- 입실: 15시 00분\n- 퇴실: 11시 00분\n- 입실 마감시간: 23시 00분\n※ 저녁 23시 이후 입실 예정이신 경우에는 펜션 측에 반드시 사전 연락 부탁드립니다.\n※ 입실 시간 전 입실은 불가능 합니다. 예약 시 참고 부탁드립니다.",
-    "usageGuide": "[입퇴실안내]\n- 입실: 15시 00분\n- 퇴실: 11시 00분\n- 입실 마감시간: 23시 00분\n※ 저녁 23시 이후 입실 예정이신 경우에는 펜션 측에 반드시 사전 연락 부탁드립니다.\n※ 입실 시간 전 입실은 불가능 합니다. 예약 시 참고 부탁드립니다.\n\n[개별바베큐]\n- 바베큐 형태: 숯불 (전 객실 야외 개별 숯불 바베큐)\n- 이용 요금: 2인 기준 20,000원 (1인 추가 시 5,000원) (1박기준/현장결제)\n- 이용 시간: 17:00 ~ 22:00\n- 신청 시간: 17:00 ~ 21:00\n※ 숯, 그릴, 버너 등 개인 바베큐 도구 지참 불가\n※ 객실 내 에어프라이 대여 가능 (대여비: 2인 기준 20,000원, 1인 추가 시 +5,000원)\n※ 객실에서 고기 및 튀김 등 냄새나는 음식물 취사 시 벌금이 부과될 수 있습니다.\n\n[공용수영장]\n- 운영 기간: 2026년6월12일~미정\n- 이용 요금: 무료\n- 이용 시간: 입실 후 ~ 19:00\n- 이용 복장: 수영복, 래쉬가드, 기본티\n※ 튜브 대여 가능 (선착순)\n\n[스파]\n- 이용 객실: 전 객실\n- 이용 요금: 무료\n- 이용 시간: 제한없음\n- 입욕제 사용 불가\n\n[부대시설]\n[무제한 바베큐 세트]\n- 메뉴: 삼겹살, 김치, 깻잎, 상추, 쌈채소, 햇반\n- 비용: 1인 30,000원 (숯, 그릴 비용 포함) (현장결제)\n- 이용 시간: 15:00 ~ 20:00\n- 주문 조건: 4인 이상부터 주문 가능\n※ 이용일 전날까지 사전 예약 필수 (당일 주문 불가)\n※ 입실 전 이용 불가\n\n[수상레저]\n- 위치: 펜션 바로 앞 (펜션 테라스와 연결되어 있어 이용하기 편리함)\n- 모비딕 수상 레저, 클럽나인 수상 레져: 이용 시 10% 할인 쿠폰 제공\n- 아이언 빠지 : 이용 시 5,000원 할인 쿠폰 제공\n- 제공방식 : 방문 당일 유선 문의\n\n[낚시]\n- 펜션 테라스에서 낚시 가능\n- 도구 개인 지참\n\n[편의 및 주변 시설]\n- 와이파이 보유\n- 넷플릭스 이용 가능\n※ 개인계정 필요\n\n- 편의점: 도보 10분 GS편의점\n- 마트: 차량 15분 농협, 하나로, CC, 조은마트\n\n[주차장]\n- 주차장 보유 \n- 주차 대수: 200평의 넓은 주차장 마련\n\n[픽업]\n- 자체 픽업 요금: 왕복 10,000원 (인원수 무관) (입실 1일 전 사전 예약 필수 / 당일 예약 불가)\n- 자체 픽업 장소: 가평역 또는 가평 터미널\n- 자체 픽업 시간: 펜션 측 문의 (15:00 ~ 17:00 / 그 이전엔 불가)\n- 자체 픽업 정원: 최대 12인\n- 마트 픽업: 조은마트, 할인마트(가평역 인근) 구매 시 픽업 가능 (마트문의)\n\n[교통편]\n[자가용 이용시]\n. 네비게이션에 주소를 검색해주세요.\n지번 주소 : 경기 가평군 가평읍 금대리 537-6\n도로명 주소 : 경기 가평군 가평읍 북한강변로 226-24\n\n[대중교통 이용시]\n. 가평역에서 오실때\n가평터미널까지 도보 2분 > 가평터미널 정류장 > 71-2번/71-3번 버스 탑승 > 가평수도원 정류장 하차 > 리알토 펜션 도착\n. 가평터미널에서 오실때\n가평터미널 정류장 > 71-2번/71-3번 버스 탑승 > 가평수도원 정류장 하차 > 리알토 펜션 도착",
+    "usageGuide": "[입퇴실안내]\n- 입실: 15시 00분\n- 퇴실: 11시 00분\n- 입실 마감시간: 23시 00분\n※ 저녁 23시 이후 입실 예정이신 경우에는 펜션 측에 반드시 사전 연락 부탁드립니다.\n※ 입실 시간 전 입실은 불가능 합니다. 예약 시 참고 부탁드립니다.\n\n[인원추가정보]\n[연령기준]\n- 성인: 8세 이상\n- 아동: 24개월 이상~8세 미만\n- 유아: 24개월 미만\n\n[추가요금]\n- 결제방법: 후결제(현장결제)\n\n[개별바베큐]\n- 바베큐 형태: 숯불 (전 객실 야외 개별 숯불 바베큐)\n- 이용 요금: 2인 기준 20,000원 (1인 추가 시 5,000원) (1박기준/현장결제)\n- 이용 시간: 17:00 ~ 22:00\n- 신청 시간: 17:00 ~ 21:00\n※ 숯, 그릴, 버너 등 개인 바베큐 도구 지참 불가\n※ 객실 내 에어프라이 대여 가능 (대여비: 2인 기준 20,000원, 1인 추가 시 +5,000원)\n※ 객실에서 고기 및 튀김 등 냄새나는 음식물 취사 시 벌금이 부과될 수 있습니다.\n\n[공용수영장]\n- 운영 기간: 2026년6월12일~미정\n- 이용 요금: 무료\n- 이용 시간: 입실 후 ~ 19:00\n- 이용 복장: 수영복, 래쉬가드, 기본티\n※ 튜브 대여 가능 (선착순)\n\n[스파]\n- 이용 객실: 전 객실\n- 이용 요금: 무료\n- 이용 시간: 제한없음\n- 입욕제 사용 불가\n\n[부대시설]\n[무제한 바베큐 세트]\n- 메뉴: 삼겹살, 김치, 깻잎, 상추, 쌈채소, 햇반\n- 비용: 1인 30,000원 (숯, 그릴 비용 포함) (현장결제)\n- 이용 시간: 15:00 ~ 20:00\n- 주문 조건: 4인 이상부터 주문 가능\n※ 이용일 전날까지 사전 예약 필수 (당일 주문 불가)\n※ 입실 전 이용 불가\n\n[수상레저]\n- 위치: 펜션 바로 앞 (펜션 테라스와 연결되어 있어 이용하기 편리함)\n- 모비딕 수상 레저, 클럽나인 수상 레져: 이용 시 10% 할인 쿠폰 제공\n- 아이언 빠지 : 이용 시 5,000원 할인 쿠폰 제공\n- 제공방식 : 방문 당일 유선 문의\n\n[낚시]\n- 펜션 테라스에서 낚시 가능\n- 도구 개인 지참\n\n[편의 및 주변 시설]\n- 와이파이 보유\n- 넷플릭스 이용 가능\n※ 개인계정 필요\n\n- 편의점: 도보 10분 GS편의점\n- 마트: 차량 15분 농협, 하나로, CC, 조은마트\n\n[주차장]\n- 주차장 보유 \n- 주차 대수: 200평의 넓은 주차장 마련\n\n[픽업]\n- 자체 픽업 요금: 왕복 10,000원 (인원수 무관) (입실 1일 전 사전 예약 필수 / 당일 예약 불가)\n- 자체 픽업 장소: 가평역 또는 가평 터미널\n- 자체 픽업 시간: 펜션 측 문의 (15:00 ~ 17:00 / 그 이전엔 불가)\n- 자체 픽업 정원: 최대 12인\n- 마트 픽업: 조은마트, 할인마트(가평역 인근) 구매 시 픽업 가능 (마트문의)\n\n[교통편]\n[자가용 이용시]\n. 네비게이션에 주소를 검색해주세요.\n지번 주소 : 경기 가평군 가평읍 금대리 537-6\n도로명 주소 : 경기 가평군 가평읍 북한강변로 226-24\n\n[대중교통 이용시]\n. 가평역에서 오실때\n가평터미널까지 도보 2분 > 가평터미널 정류장 > 71-2번/71-3번 버스 탑승 > 가평수도원 정류장 하차 > 리알토 펜션 도착\n. 가평터미널에서 오실때\n가평터미널 정류장 > 71-2번/71-3번 버스 탑승 > 가평수도원 정류장 하차 > 리알토 펜션 도착",
     "reservationGuide": "",
     "province": "도/시",
     "city": "시/군/구",
     "domain": "rialtops.co.kr",
     "realtimeBookingId": "https://booking.naver.com/booking/3/bizes/439111",
     "ybsId": "65148",
+    "tripPropertyId": "2193",
+    "partnerType": "distributor_a",
+    "tripProviderName": "트립일레븐",
     "amenities": [
       "주차장"
     ],
@@ -291,9 +296,9 @@
       {
         "thumbnail": [
           {
-            "id": "be5e5fd7-4a67-49da-be91-48a259a2d06e",
-            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/Scq1AijzmUpg.jpg",
-            "sortOrder": 0,
+            "id": "5646ace9-0ca8-4aef-82a2-c1b79dd5981e",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/E4mQqCNFXlTK.jpg",
+            "sortOrder": 1,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -303,30 +308,14 @@
           {
             "id": "5354fff7-45bf-4752-9b3d-fd7a13761e92",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/jlHLMbvxtIug.jpg",
-            "sortOrder": 0,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "5646ace9-0ca8-4aef-82a2-c1b79dd5981e",
-            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/E4mQqCNFXlTK.jpg",
-            "sortOrder": 1,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "5dcfdb70-2315-4d6c-8302-af62d9dd6849",
-            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/W95YnoUCsFgB.jpg",
             "sortOrder": 2,
             "description": "",
             "isSelected": true,
             "blockId": null
           },
           {
-            "id": "fb1af63c-bc39-44ee-a8c6-6805f0ac116d",
-            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/PitgCOxZpYdo.jpg",
+            "id": "98194067-554d-493d-93da-103682439541",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/iDU4cblaNYxe.jpg",
             "sortOrder": 3,
             "description": "",
             "isSelected": true,
@@ -341,8 +330,8 @@
             "blockId": null
           },
           {
-            "id": "7078b1b6-5d91-4f62-a121-58873d27c483",
-            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/P8VjpxzNc1qk.jpg",
+            "id": "fb1af63c-bc39-44ee-a8c6-6805f0ac116d",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/PitgCOxZpYdo.jpg",
             "sortOrder": 5,
             "description": "",
             "isSelected": true,
@@ -357,9 +346,25 @@
             "blockId": null
           },
           {
-            "id": "98194067-554d-493d-93da-103682439541",
-            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/iDU4cblaNYxe.jpg",
+            "id": "7078b1b6-5d91-4f62-a121-58873d27c483",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/P8VjpxzNc1qk.jpg",
             "sortOrder": 7,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "5dcfdb70-2315-4d6c-8302-af62d9dd6849",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/W95YnoUCsFgB.jpg",
+            "sortOrder": 8,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "be5e5fd7-4a67-49da-be91-48a259a2d06e",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/30/Scq1AijzmUpg.jpg",
+            "sortOrder": 9,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -2858,6 +2863,35 @@
                 "description": ""
               },
               "enabled": true
+            }
+          ]
+        },
+        "landing": {
+          "sections": [
+            {
+              "enabled": false,
+              "hero": {
+                "images": [ ]
+              },
+              "about": [
+                {
+                  "blockId": "sample-card-1",
+                  "propertyId": "sample-property-1",
+                  "propertyName": "현재 숙소",
+                  "title": "",
+                  "images": [ ],
+                  "order": 1
+                },
+                {
+                  "blockId": "sample-card-2",
+                  "propertyId": "sample-property-2",
+                  "propertyName": "연결 숙소 2",
+                  "domain": "http://localhost:8000/t-template-F",
+                  "title": "",
+                  "images": [ ],
+                  "order": 2
+                }
+              ]
             }
           ]
         }
